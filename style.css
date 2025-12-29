@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    /* padding: 0 10%; */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.header {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.header-link {
+    margin-right: 20px;
+    color: #1c1e53;
+}
+
+.header-link-main, .header-btn {
+    color: #5e3bee;
+}
+
+.btn {
+    border: 1.33px solid #5e3bee;
+    border-radius: 5px;
+    padding: 18px 42px;
+}
+
+.hero {
+    background-color: #f5fcff;
+    display: flex;
+    align-items: center;
+    padding: 133px 10%;
+    /* justify-content: center; */
+}
+
+.subtitle {
+    color: #282938;
+    font-weight: 600;
+    margin: 0 0 21px;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 74px; 
+    color: #282938; 
+    margin-bottom: 21px; 
+}
+
+.hero-title span {
+    color: #5e3bee;
+}
+
+.hero-descr {
+    font-size: 24px;
+    color: #1c1e53;
+    margin-bottom: 52px;
+}
+
+.hero-btn {
+    border: none;
+    color: white;
+    background-color: #5e3bee;
+}
+
+.expertise {
+    padding: 133px 10%;
+}
+
+.section-subtitle {
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 100px;
+    color: #282938;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.card__items {
+    border-radius: 11px;
+    padding: 32px;
+    width: 405px;
+    height: 370px;
+    background-color: #f5fcff;
+}
+
+.card__img {
+    border-radius: 11px;
+    padding: 13px;
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+    margin-bottom: 32px;
+}
+
+.card__img img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.card__content {
+    width: 340px;
+}
+
+.card__title {
+    font-weight: 700;
+    font-size: 32px;
+    color: #282938;
+    margin-bottom: 21px;
+}
+
+.card__descr {
+    color: #1c1e53;
+    line-height: 150%;
+}
